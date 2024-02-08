@@ -1,4 +1,4 @@
-# This program holds the first item of any member in the list, and removes all duplicated/Repeated members.
+# This program holds the first item of any member in the list, and removes all duplicated/repeated members.
 # n is a sample list.
 
 n=['This', 'is', 'a', 'is', 'Test', 'This', 'Test', 'is']

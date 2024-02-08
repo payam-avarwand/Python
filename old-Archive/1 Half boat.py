@@ -5,4 +5,4 @@ for i in range(1, 11):
 for m in range(9,0,-1):
     for o in range(m, 0,-1):
         print("\/\/",end=" ")
-    print() 
+    print()

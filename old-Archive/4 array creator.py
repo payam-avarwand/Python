@@ -20,9 +20,12 @@ def MyArray():
     a=array('i',[])
     n=int(input("Enter your desired length for the array: "))
     a=readArray(a,n)
+
+    print("\nHere is the array: ")
     printArray(a)
+
     changeSort(a,n)
-    print("\nThe sorted version is: ")
+    print("\n\nThe sorted version is: ")
     printArray(a)
 
 MyArray()
