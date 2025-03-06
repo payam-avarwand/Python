@@ -1,4 +1,4 @@
-''' This provides a 12-Character complicated random Password.'''
+# This provides a 12-Character complicated random Password.
 
 # created:      Payam Avarwand - 01.01.2024
 

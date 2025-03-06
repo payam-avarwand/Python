@@ -1,4 +1,4 @@
-''' This provides a merged list of our local LUN-List and all LUN-Lists from every single Storage-System,
+''' This Script provides a merged list of our local LUN-List and all LUN-Lists from every single Storage-System,
     and then will create a Log file to inform about the LUNs that have more than one Record in our local-List.
     '''
 
@@ -38,7 +38,7 @@ except ImportError:
 
 ################# design and define functions #################
 
-################# mix the cmdb-output-list with all storage-output-lists
+################# mix the CMDB-output-list with all storage-output-lists
 def fill_WWN_from_storage_output(Storage, cleanCMDBList, output_file):
     """
     Fills 'second column' values in the file 'cleanCMDBList' based on corresponding 'second column' values from 'Storage'.
